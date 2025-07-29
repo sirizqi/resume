@@ -2,7 +2,7 @@ import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
   name: "Rizqi Sarasajati",
-  initials: "Jati",
+  initials: "sirizqi",
   location: "D.I Yogyakarta, Indonesia",
   locationLink: "https://maps.app.goo.gl/wDw5i8DDymSvBSDD8",
   about: "Product Management Expert.",
@@ -11,7 +11,7 @@ export const RESUME_DATA: ResumeData = {
       A product leader with 9+ years of experience building and scaling digital products across diverse domains. Brings a multidisciplinary background in Software Engineering, UI/UX Design, and Product Management. Skilled in leading cross-functional teams, aligning product strategy with business goals, and delivering impactful solutions from ideation to launch. Combines systems thinking with hands-on execution and a deep empathy for users.
     </>
   ),
-  avatarUrl: "https://drive.google.com/file/d/1Z-aHG8p5ZC1BNw2FCvkg_kQxqNSUHziZ/view?usp=sharing",
+  avatarUrl: "https://avatars.githubusercontent.com/u/92770121?s=400&u=2b8fb32e57c9390d04edc05b99e52c5a59a1f15c&v=4",
   personalWebsiteUrl: "https://rizqisarasajati.com",
   contact: {
     email: "rizqisarasajati1109@gmail.com",
@@ -40,6 +40,26 @@ export const RESUME_DATA: ResumeData = {
       degree: "Bachelor's Degree in Informatics",
       start: "2015",
       end: "2019",
+      description: (
+        <>
+          Graduated with a Bachelor's Degree in Informatics, focusing on software
+          development and digital solutions.
+          <ul className="list-inside list-disc">
+            <li>
+              Developed a strong foundation in software engineering principles,
+              algorithms, and data structures
+            </li>
+            <li>
+              Participated in various projects that enhanced practical skills in
+              programming and system design
+            </li>
+            <li>
+              Engaged in extracurricular activities that fostered teamwork and
+              leadership abilities
+            </li>
+          </ul>
+        </>
+      ),
     },
   ],
   work: [
@@ -52,13 +72,36 @@ export const RESUME_DATA: ResumeData = {
       end: null,
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
+          <ul className="list-inside list-disc">
+            <li>
+              Leading product strategy and execution for a shipping aggregator
+              platform, driving growth and user engagement
+            </li>
+            <li>              Collaborating with cross-functional teams to define product vision,
+              roadmap, and requirements
+            </li>
+            <li>              Conducting market research and user feedback analysis to inform
+              product decisions
+            </li>
+            <li>              Managing product lifecycle from ideation to launch, ensuring timely
+              delivery and quality standards
+            </li>
+            <li>              Analyzing product performance metrics and implementing improvements
+            </li>
+            <li>              Building and maintaining strong relationships with stakeholders,
+              including customers, partners, and internal teams
+            </li>
+            <li>              Leading product discovery and validation processes to ensure market fit
+            </li>
+            <li>              Developing and executing go-to-market strategies for new product
+              features and enhancements
+            </li>
+          </ul>
         </>
       ),
     },
     {
-      company: "PT. Panda Advis Teknologi",
+      company: "Koda",
       link: "https://koda.so",
       badges: ["Remote", "AI Agent", "WhatsappBusiness", "F&B"],
       title: "Product Manager",
@@ -66,19 +109,36 @@ export const RESUME_DATA: ResumeData = {
       end: "Jun 2025",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Leading product strategy and execution for an AI agent platform,
+              driving growth and user engagement
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Collaborating with cross-functional teams to define product vision,
+              roadmap, and requirements
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Conducting market research and user feedback analysis to inform
+              product decisions
+            </li>
+            <li>
+              Managing product lifecycle from ideation to launch, ensuring timely
+              delivery and quality standards
+            </li>
+            <li>
+              Analyzing product performance metrics and implementing improvements
+            </li>
+            <li>
+              Building and maintaining strong relationships with stakeholders,
+              including customers, partners, and internal teams
+            </li>
+            <li>
+              Leading product discovery and validation processes to ensure market fit
+            </li>
+            <li>
+              Developing and executing go-to-market strategies for new product
+              features and enhancements
             </li>
           </ul>
         </>
@@ -96,15 +156,38 @@ export const RESUME_DATA: ResumeData = {
           Leading 9+ PM/APM's in building SaaS.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Spearheaded the development of a logistics aggregator platform,
+              integrating multiple shipping providers and payment gateways
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Led a team of 9 product managers and associate product managers in
+              building a comprehensive SaaS solution for e-commerce logistics
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Collaborated with cross-functional teams to define product vision,
+              roadmap, and requirements
+            </li>
+            <li>
+              Conducted market research and user feedback analysis to inform
+              product decisions
+            </li>
+            <li>
+              Managed product lifecycle from ideation to launch, ensuring timely
+              delivery and quality standards
+            </li>
+            <li>
+              Analyzed product performance metrics and implemented improvements
+            </li>
+            <li>
+              Built and maintained strong relationships with stakeholders,
+              including customers, partners, and internal teams
+            </li>
+            <li>
+              Led product discovery and validation processes to ensure market fit
+            </li>
+            <li>
+              Developed and executed go-to-market strategies for new product
+              features and enhancements
             </li>
           </ul>
         </>
@@ -123,16 +206,32 @@ export const RESUME_DATA: ResumeData = {
           leading distributed teams.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Designed and implemented a comprehensive design system to ensure
+              consistency across all digital products
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Collaborated with product managers and developers to create user-centered
+              designs that enhance user experience and engagement
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Conducted user research and usability testing to gather feedback and
+              iterate on designs
+            </li>
+            <li>
+              Developed wireframes, prototypes, and high-fidelity mockups for web and
+              mobile applications
+            </li>
+            <li>
+              Worked closely with development teams to ensure design feasibility and
+              adherence to design specifications
+            </li>
+            <li>
+              Created and maintained design documentation, including style guides and
+              design patterns
+            </li>
+            <li>
+              Collaborated with marketing teams to ensure brand consistency across all
+              digital touchpoints
             </li>
           </ul>
         </>
@@ -147,14 +246,38 @@ export const RESUME_DATA: ResumeData = {
       end: "2015",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
+          Developed software for LTE base stations at enterprise scale, gaining
+          strong fundamentals in software architecture, testing practices, and
+          cross-team collaboration.
           <ul className="list-inside list-disc">
             <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
+              Designed and delivered multimedia curriculum for high school students,
+              focusing on game development and digital content creation
             </li>
-            <li>Built and mentored high-performing mobile development team</li>
+            <li>
+              Developed engaging lesson plans and hands-on projects to enhance student
+              learning and creativity
+            </li>
+            <li>
+              Collaborated with other teachers to integrate multimedia concepts into
+              various subjects
+            </li>
+            <li>
+              Mentored students in multimedia projects, guiding them through the
+              creative process from ideation to execution
+            </li>
+            <li>
+              Organized workshops and extracurricular activities to promote interest in
+              multimedia and game development
+            </li>
+            <li>
+              Evaluated student performance and provided constructive feedback to help
+              them improve their skills
+            </li>
+            <li>
+              Stayed updated with the latest trends and technologies in multimedia and
+              game development to ensure curriculum relevance
+            </li>
           </ul>
         </>
       ),
@@ -167,7 +290,40 @@ export const RESUME_DATA: ResumeData = {
       start: "2010",
       end: "2012",
       description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+        <>
+        <ul className="list-inside list-disc">
+          <li>
+            Led the development of a digital invitation platform, enhancing user
+            experience and engagement
+          </li>
+          <li>
+            Collaborated with cross-functional teams to define product vision,
+            roadmap, and requirements
+          </li>
+          <li>
+            Conducted market research and user feedback analysis to inform product
+            decisions
+          </li>
+          <li>
+            Managed product lifecycle from ideation to launch, ensuring timely
+            delivery and quality standards
+          </li>
+          <li>
+            Analyzed product performance metrics and implemented improvements
+          </li>
+          <li>
+            Built and maintained strong relationships with stakeholders, including
+            customers, partners, and internal teams
+          </li>
+          <li>
+            Led product discovery and validation processes to ensure market fit
+          </li>
+          <li>
+            Developed and executed go-to-market strategies for new product features
+            and enhancements
+          </li>
+        </ul> 
+        </>
     },
     {
       company: "Mentari Satria",
@@ -177,7 +333,39 @@ export const RESUME_DATA: ResumeData = {
       start: "2015",
       end: "2019",
       description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      <>
+      <ul className="list-inside list-disc">
+        <li>
+          Developed software for LTE base stations at enterprise scale, gaining
+          strong fundamentals in software architecture, testing practices, and
+          cross-team collaboration.
+        </li>
+        <li>
+          Collaborated with cross-functional teams to design and implement backend
+          solutions for various digital products
+        </li>
+        <li>
+          Developed and maintained RESTful APIs to support frontend applications and
+          third-party integrations
+        </li>
+        <li>
+          Implemented database solutions using MySQL and MongoDB, ensuring data integrity
+          and performance optimization
+        </li>
+        <li>
+          Participated in code reviews and provided constructive feedback to improve code
+          quality and maintainability
+        </li>
+        <li>
+          Assisted in the deployment and monitoring of applications in production
+          environments, ensuring high availability and performance
+        </li>
+        <li>
+          Stayed updated with the latest technologies and best practices in software
+          development to continuously improve skills and contribute to team success
+        </li>
+      </ul>
+      </>
     },
   ],
   skills: [
@@ -201,7 +389,7 @@ export const RESUME_DATA: ResumeData = {
       title: "PassionJapan",
       techStack: ["PHP", "MySQL"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A platform connecting Indonesian Job Seekers with Japanese Companies, facilitating job opportunities and cultural exchange.",
       link: {
         label: "passionjapan.id",
         href: "https://passionjapan.id/",

@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cv.jarocki.me"),
+  metadataBase: new URL("https://cv.rizqisarasajati.com"),
   title: {
     default: `${RESUME_DATA.name} - ${RESUME_DATA.about}`,
     template: `%s | ${RESUME_DATA.name}`,
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     "cv",
     "portfolio",
     RESUME_DATA.name,
-    "software engineer",
-    "full stack developer",
-    "react",
-    "next.js",
-    "typescript",
+    "product manager",
+    "product designer",
+    "agile",
+    "scrum",
+    "pmbok",
   ],
   authors: [{ name: RESUME_DATA.name }],
   creator: RESUME_DATA.name,

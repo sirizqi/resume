@@ -32,7 +32,7 @@ interface EducationItemProps {
  * Individual education card component
  */
 function EducationItem({ education }: EducationItemProps) {
-  const { school, start, end, degree } = education;
+  const { school, start, end, degree, description } = education;
 
   return (
     <Card>
