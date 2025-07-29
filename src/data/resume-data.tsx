@@ -85,23 +85,15 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
+      company: "Komerce",
+      link: "https://komerce.id",
+      badges: ["On-Site","Logistics Aggreagator","Debit Card Virtual","Etc.."],
+      title: "Technical Product Manager (Lead PM)",
+      start: "Jun 2023",
+      end: "May 2025",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Leading 9+ PM/APM's in building SaaS.
           <ul className="list-inside list-disc">
             <li>
               Built design system with Tailwind CSS, improving development speed
@@ -119,12 +111,12 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
+      company: "Niagahoster",
+      link: "https://niagahoster.co.id",
+      badges: ["Remote", "Hosint Provider", "Design System", "UIX Design"],
+      title: "UIX Designer",
+      start: "2023",
+      end: "2023",
       description: (
         <>
           Successfully transitioned from mobile to full-stack development while
@@ -147,10 +139,10 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
+      company: "VHS 2 Purwokerto",
+      link: "https://smkn2purwokerto.sch.id",
+      badges: ["On Site", "Teaching", "Multimedia", "Game Development"],
+      title: "Multimedia Teacher",
       start: "2012",
       end: "2015",
       description: (
@@ -168,67 +160,51 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
+      company: "Webding",
+      link: "https://webding.com",
+      badges: ["Hybrid", "Digital Invitation", "Product Management"],
+      title: "Product Management",
       start: "2010",
       end: "2012",
       description:
         "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
+    {
+      company: "Mentari Satria",
+      link: "https://mentarisatria.com",
+      badges: ["Hybrid", "Digital Solution", "Software Development"],
+      title: "Software Engineer - Backend Developer",
+      start: "2015",
+      end: "2019",
+      description:
+        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+    },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Research & Analysis",
+    "Product Strategy",
+    "User Experience Design",
+    "Agile Methodologies",
+    "Cross-Functional Team Leadership",
+    "Stakeholder Management",
+    "Data-Driven Decision Making",
+    "Software Development",
+    "UI/UX Design",
+    "Mobile Development",
+    "Web Development",
+    "API Design",
+    "Cloud Computing",
+    "Agile & Scrum",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "PassionJapan",
+      techStack: ["PHP", "MySQL"],
       description:
         "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "passionjapan.id",
+        href: "https://passionjapan.id/",
       },
     },
   ],
